@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+.main-container{
+  padding: 10px;
+  height:100vh;
+  width: 100%;
+  max-width: 600px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+  margin:auto;
+}
+.users-unorder-list-container{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  border:1px solid white;
+  flex-grow:1;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 100%;
+}
+.users-list-item{
+  display: flex;
+  border-bottom:1px solid white;
+}
+
+.users-list-item p{
+  text-align: start;
+  padding: 10px;
+  border-right: 1px solid white ;
+  overflow-wrap:break-word;
+}
+
+.id-list-item{
+  width:15%;
+}
+
+.name-list-item{
+  width:35%;
+}
+
+.email-list-item{
+  width:35%;
+}
+
+
+.remove-button{
+  background-color: transparent;
+  border-radius: 50%;
+  border:none;
+  margin:auto;
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin:10px 0px;
+}
+.input-container div{
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: start;
+  display:flex;
+}
+.text-label-element{
+  display:block;
+  font-weight: bold;
+  width:70px;
+  margin-right: 5px;
+  padding-top:5px;
+}
+.text-input{
+padding:8px;
+flex-grow:1;
+color:white;
+font-weight: bold;
+border:none;
+border-radius: 6px;
+}
+
+.user-button{
+  background-color:blue;
+  padding:10px;
+  border:8px;
+  border-radius: 6px;
+  width:100px;
+  height: 35px;
+  font-weight: bold;
+}
+.checkbox-input-container{
+  display: flex;
+  align-items: center;
+}
+.checkbox-label{
+  font-weight: bold;
+}
+.checkbox-input{
+  margin-right:20px;
+  height:18px;
+  width:18px;
+  margin-left:5px;
+}
+.initial-list{
+  font-weight: bold;
+}
